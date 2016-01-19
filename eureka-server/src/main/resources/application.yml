@@ -40,7 +40,7 @@ eureka:
   client:
     registerWithEureka: true
     serviceUrl:
-      defaultZone: http://eureka-tertiary:8013,http://eureka-primary/:8011
+      defaultZone: http://eureka-tertiary:8013,http://eureka-primary:8011
 
 ---
 spring:
